@@ -1,7 +1,7 @@
 ## A dual reverse distillation scheme for image anomaly detection
 
 &nbsp;&nbsp;&nbsp;&nbsp;This paper proposes a Dual Reverse Distillation (DRD) scheme. DRD combines pseudo abnormal and normal images and restores their features with the reverse distillation method. It includes a novel Multi - Feature Cascade Fusion (MFCF) block, a combined knowledge distillation loss function, and a detection refinement method. The MFCF block improves feature integration across layers, and the loss function balances features from batch and individual images. The refinement method at the inference stage boosts detection accuracy. These strategies enhance the recovery of abnormal features and reduce over-generalization.
-<br>&nbsp;&nbsp;&nbsp;&nbsp;Experiments on public datasets like MVTec, BTAD, and VisA verified DRD's effectiveness. For MVTec, it achieved 99.46% AUROC at the image level and 98.39% at the pixel level, outperforming RD. Ablation experiments also confirmed that DRD can effectively mitigate the over-generalization issue.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Experiments on public datasets like MVTec, BTAD, and VisA verified the effectiveness of DRD. For MVTec, DRD achieved 99.46% AUROC at the image level and 98.39% at the pixel level, outperforming RD. At the inference stage, with a similar AUROC, DRD had a 62.38% FPS improvement over RD++. 
 <br>
   <img width="100%" alt="AFA flowchart" src="./train.png">
 </div>
