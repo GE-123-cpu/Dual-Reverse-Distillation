@@ -1,6 +1,6 @@
 ## Environment
-matplotlib==3.7.5
-numpy==1.20.3
+matplotlib==3.7.5  <br>
+numpy==1.20.3  <br>
 opencv-python==4.5.1.48
 pandas==1.5.3
 scikit-image==0.19.3
