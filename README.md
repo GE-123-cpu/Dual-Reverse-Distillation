@@ -12,7 +12,7 @@ scipy==1.10.1  <br>
 pillow ==7.2.0  <br>
 
 ## Train
-<python train.py>
+'<python train.py>'
 
 
 ## Dataset
