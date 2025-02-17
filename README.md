@@ -1,6 +1,13 @@
 ## A dual reverse distillation scheme for image anomaly detection
-This paper proposes a Dual Reverse Distillation (DRD) scheme. DRD combines pseudo abnormal and normal images and restores their features with the reverse distillation method. It includes a novel Multi - Feature Cascade Fusion (MFCF) block, a combined knowledge distillation loss function, and a detection refinement method. The MFCF block improves feature integration across layers, and the loss function balances features from batch and individual images. The refinement method at the inference stage boosts detection accuracy. These strategies enhance the recovery of abnormal features and reduce over-generalization.
-Experiments on public datasets like MVTec, BTAD, and VisA verified DRD's effectiveness. For MVTec, it achieved 99.46% AUROC at the image level and 98.39% at the pixel level, outperforming RD. Ablation experiments also confirmed that DRD can effectively mitigate the over-generalization issue.
+
+&nbsp;&nbsp;&nbsp;&nbsp;This paper proposes a Dual Reverse Distillation (DRD) scheme. DRD combines pseudo abnormal and normal images and restores their features with the reverse distillation method. It includes a novel Multi - Feature Cascade Fusion (MFCF) block, a combined knowledge distillation loss function, and a detection refinement method. The MFCF block improves feature integration across layers, and the loss function balances features from batch and individual images. The refinement method at the inference stage boosts detection accuracy. These strategies enhance the recovery of abnormal features and reduce over-generalization.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Experiments on public datasets like MVTec, BTAD, and VisA verified DRD's effectiveness. For MVTec, it achieved 99.46% AUROC at the image level and 98.39% at the pixel level, outperforming RD. Ablation experiments also confirmed that DRD can effectively mitigate the over-generalization issue.
+<br>
+  <img width="100%" alt="AFA flowchart" src="./train.png">
+</div>
+<br>
+  <img width="100%" alt="AFA flowchart" src="./result.png">
+</div>
 
 ## Environment
 matplotlib==3.7.5  <br>
