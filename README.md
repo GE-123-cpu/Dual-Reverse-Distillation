@@ -23,14 +23,14 @@ scipy==1.10.1  <br>
 pillow ==7.2.0  <br>
 
 ## Train
-Training on the all of dataset can be done directly
+Training on the all of dataset can be done directly：
 ```bash
 python train.py
 ```
 If you want to train a separate category, replace the category you want to train with line 256 in train.py and run it.
 
 ## Evaluation
-Select the category to be validated and the corresponding saved model parameters in line 159 of test.py, and run
+Select the category to be validated and the corresponding saved model parameters in line 159 of test.py, and run：
 ```bash
 python test.py
 ```
