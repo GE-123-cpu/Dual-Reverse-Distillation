@@ -56,9 +56,6 @@ Please cite our paper if you find it's helpful in your work.
   year         = {2025},
   url          = {https://doi.org/10.1016/j.neucom.2025.129479},
   doi          = {10.1016/J.NEUCOM.2025.129479},
-  timestamp    = {Mon, 10 Feb 2025 22:47:33 +0100},
-  biburl       = {https://dblp.org/rec/journals/ijon/GeYZFCS25.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
