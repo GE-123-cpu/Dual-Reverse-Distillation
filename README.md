@@ -43,12 +43,7 @@ Please cite our paper if you find it's helpful in your work.
 
 ``` bibtex
 @article{DBLP:journals/ijon/GeYZFCS25,
-  author       = {Chenkun Ge and
-                  Xiaojun Yu and
-                  Hao Zheng and
-                  Zeming Fan and
-                  Jinna Chen and
-                  Perry Ping Shum},
+  author       = {Chenkun Ge and Xiaojun Yu and Hao Zheng and Zeming Fan and Jinna Chen and Perry Ping Shum},
   title        = {A dual reverse distillation scheme for image anomaly detection},
   journal      = {Neurocomputing},
   volume       = {624},
